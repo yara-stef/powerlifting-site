@@ -1,0 +1,136 @@
+.footer {
+    background-color: #161719;
+    color: var(--background-color);
+}
+
+.footer a {
+    color: var(--background-color);
+}
+
+.footer-block__menu {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    display: grid;
+}
+
+@media (min-width: 260px) {
+    .footer-block__menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (min-width: 770px) {
+    .footer-block__menu {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-block__menu {
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+}
+
+@media (min-width: 260px) {
+    .footer-block__menu__logo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 770px) {
+    .footer-block__menu__logo {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+
+.footer-block__menu__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media (min-width: 770px) {
+    .footer-block__menu__list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+.footer-block__menu__subscribe {
+    /*display: flex;
+    flex-direction: column;
+    text-align: center;*/
+    padding-top: 40px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-gap: 30px;
+}
+
+@media (min-width: 770px) {
+    .footer-block__menu__subscribe {
+        padding-top: 0%;
+    }
+}
+ 
+.footer-block__menu__subscribe p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-block__menu__list a:hover {
+    text-decoration: underline;
+}
+
+.footer__contacts {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-gap: 20px;
+}
+
+.footer-input {
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #fff;
+}
+
+.created {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Splash', cursive;
+}
+
+@media (min-width: 260px) {
+    .underline {
+        padding-top: 70px;
+        padding-left: 40px;
+        padding-right: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 770px) {
+    .underline {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+.underline__rigths {
+    display: flex;
+    justify-content: flex-end;
+}
