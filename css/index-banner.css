@@ -7,6 +7,12 @@
     background-size: cover;
 }
 
+@media (max-width: 600px) {
+    .banner {
+        background-image: url(../img/main-pic-small.jpeg);
+    }
+}
+
 
 .header-banner__h1 {
     color: #f6f6f6;
