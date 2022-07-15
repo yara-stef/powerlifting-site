@@ -28,8 +28,11 @@
     color: var(--main-text-color);
 }
 
-.logo-name {
+.navbar-brand {
     color: var(--main-text-color);
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .contacts a:hover {
@@ -115,7 +118,7 @@ h3 {
     align-items: center;
 }
 
-.button {
+.btn {
     padding: 0.35em 1.2em;
     border: 0.1em solid rgb(43, 111, 236);
     margin: 0 0.3em 0.3em 0;
@@ -126,7 +129,21 @@ h3 {
     text-align: center;    
 }
 
-.button:hover {
+.btn:hover {
     background-color: rgb(28, 28, 240);
     cursor: pointer;
 }
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav-list a:hover {
+    text-decoration: underline;
+    color: rgb(0, 110, 255);
+}
+
