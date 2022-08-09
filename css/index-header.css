@@ -159,6 +159,7 @@ h3 {
 .navbar-nav {
     text-align: center;
     width: 100%;
+    flex: 1;
 }
 
 @media screen and (min-width: 991px) {

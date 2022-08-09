@@ -52,3 +52,8 @@
     padding-top: 20px;
     padding-left: 30px;
 }
+
+.btn:hover {
+    border: 0.1em solid rgb(28, 28, 240);
+    color: var(--background-color);
+}
