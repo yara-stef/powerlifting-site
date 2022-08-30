@@ -57,3 +57,10 @@
     border: 0.1em solid rgb(28, 28, 240);
     color: var(--background-color);
 }
+
+#fade {
+    background-color: #161719;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 10px 0;
+}
