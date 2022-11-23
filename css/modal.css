@@ -10,9 +10,23 @@
     cursor: pointer;
 }*/
 
+.show-modal, .show-modal1, .show-modal2 {
+    margin: 10px 30px 20px 30px;
+}
+
+
+/*.exercise {
+    display: block;
+    width: 50%;*/
+}
+
+.pictures {
+        display: flex;
+}
+
 .close-modal {
     position: absolute;
-    top: 1.2rem;
+    /*top: 1.2rem;*/
     right: 2rem;
     font-size: 5rem;
     color: #333;
@@ -33,31 +47,16 @@ p {
 .squat-start, .squat-finish {
     width: 100px;
     height: 100px;
+    padding: 5px 10px 5px 10px;
 } 
 
-/*.squat {grid-area: squat;}
-.squat-paragraph {grid-area: sp;}
-.squat-paragraph1 {grid-area: sp1;}
-.squat-paragraph2 {grid-area: sp2;}
-.squat-start {grid-area: img;}
-.squat-finish {grid-area: img2;}
-
-
-.grid-container {
-    display: grid;
-    grid-template-areas: 'squat squat squat'
-    'sp sp img'
-    'sp1 sp1 img2'
-    'sp2 sp2';
-}*/
-
-/*.hidden {
+.hidden {
     display: none;
-}*/
+}
 
-.modal {
+.exercise {
     position: absolute;
-    top: 50%;
+    /*top: 50%;*/
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
@@ -71,7 +70,7 @@ p {
 
 .overlay {
     position: absolute;
-    top: 0;
+    /*top: 0;*/
     left: 0;
     width: 100%;
     height: 100%;
